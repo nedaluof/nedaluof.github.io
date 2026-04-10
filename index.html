@@ -18,16 +18,34 @@
             font-family: system-ui, 'Segoe UI', 'Helvetica Neue', sans-serif;
             background: #ffffff;
         }
-        .center-name {
+        .center-container {
+            text-align: center;
+            padding: 1rem;
+        }
+        .main-name {
             font-size: clamp(3rem, 12vw, 8rem);
             font-weight: 800;
             color: #1a1a2e;
-            text-align: center;
-            padding: 1rem;
+        }
+        .sub-text {
+            margin-top: 0.75rem;
+            font-size: clamp(1rem, 4vw, 1.8rem);
+            font-weight: 500;
+        }
+        .red-part {
+            color: #e63946;
+        }
+        .normal-part {
+            color: #1a1a2e;
         }
     </style>
 </head>
 <body>
-    <div class="center-name">NedaluOf</div>
+    <div class="center-container">
+        <div class="main-name">NedaluOf</div>
+        <div class="sub-text">
+            <span class="red-part">8K</span><span class="normal-part">-Developers Apps</span>
+        </div>
+    </div>
 </body>
 </html>
